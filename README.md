@@ -7,3 +7,4 @@ This project aims to create a comprehensive data analysis system based on the Wi
 ## Snippet List
 
 1. [CustomerTransactionSummaryByGeography.sq](CustomerTransactionSummaryByGeography.sq): The query aims to summarize customer transactions by geographical hierarchy, providing insights into the number of customers and total transaction amounts at the city, state/province, and country levels.
+2. [AnnualSupplierTransactionSummary.sql](AnnualSupplierTransactionSummary.sql): The output of this query will be a list of suppliers with their total transaction amounts for each year.
