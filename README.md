@@ -10,3 +10,4 @@ This project aims to create a comprehensive data analysis system based on the Wi
 2. [SupplierTransactionSummaryByYear.sql](SupplierTransactionSummaryByYear.sql): The output of this query will be a list of suppliers with their total transaction amounts for each year.
 3. [SalespersonMonthlyOrderSummary.sql](SalespersonMonthlyOrderSummary.sql): The output of this query will be a list of sales transactions, aggregated by salesperson, year, and month.
 4. [SalespersonAnnualPerformanceWithBonus.sql](SalespersonAnnualPerformanceWithBonus.sql): The output of this query will be a list of sales transactions, aggregated by salesperson and year.
+5. [TopMonthlyOrdersByYear.sql](TopMonthlyOrdersByYear.sql): Identifies the top monthly order by amount for each year, including salesperson details and tax amounts.
