@@ -1,12 +1,16 @@
 SELECT
-   EXTRACT(YEAR FROM t.TransactionDate) AS TransactionYear,
-   s.SupplierName,
-   TO_CHAR(SUM(t.TransactionAmount), '$999,999,999.99') AS TotalTransactionAmount
+   p.FULLNAME,
+   EXTRACT(YEAR FROM o.ORDERDATE) AS ORDER_YEAR,
+   EXTRACT(MONTH FROM o.ORDERDATE) AS ORDER_MONTH,
+   SUM(l.QUANTITY) AS Total_Quantity,
+   SUM(SUM(l.QUANTITY)) OVER (PARTITION BY p.FULLNAME ORDER BY EXTRACT(YEAR FROM o.ORDERDATE), EXTRACT(MONTH FROM o.ORDERDATE)) AS Cumulative_Transactions
 FROM
-   WWI.suppliers s
+   WWI.ORDERLINES l
 JOIN
-   WWI.suppliertransactions t ON s.SupplierID = t.SupplierID
+   WWI.ORDERS o ON l.ORDERID = o.ORDERID
+JOIN
+   WWI.PEOPLE2 p ON o.SALESPERSONPERSONID = p.PERSONID
 GROUP BY
-   EXTRACT(YEAR FROM t.TransactionDate), s.SupplierName
-ORDER BY
-   TransactionYear ASC, TotalTransactionAmount DESC;
+   EXTRACT(YEAR FROM o.ORDERDATE),
+   EXTRACT(MONTH FROM o.ORDERDATE),
+   p.FULLNAME;
