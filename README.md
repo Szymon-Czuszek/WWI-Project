@@ -14,3 +14,4 @@ This project aims to create a comprehensive data analysis system based on the Wi
 6. [MonthlyCustomerProfitVouchers.sql](MonthlyCustomerProfitVouchers.sql): Calculates monthly profit and tax per customer, assigning vouchers to the most profitable customers.
 7. [MonthlyStockGroupAvgQuantity.sql](MonthlyStockGroupAvgQuantity.sql): Calculates the average monthly stock quantity on hand per customer and stock group, with results grouped by year, month, customer, and stock group.
 8. [MonthlyStockGroupRollup.sql](MonthlyStockGroupRollup.sql): Calculates the average monthly stock quantity on hand per customer and stock group, with hierarchical grouping by year, month, customer, and stock group.
+9. [MonthlySalespersonCumulativeInvoice.sql](MonthlySalespersonCumulativeInvoice.sql): Calculates monthly and cumulative invoice totals per salesperson, grouped by year and month.
