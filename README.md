@@ -15,3 +15,5 @@ This project aims to create a comprehensive data analysis system based on the Wi
 7. [MonthlyStockGroupAvgQuantity.sql](MonthlyStockGroupAvgQuantity.sql): Calculates the average monthly stock quantity on hand per customer and stock group, with results grouped by year, month, customer, and stock group.
 8. [MonthlyStockGroupRollup.sql](MonthlyStockGroupRollup.sql): Calculates the average monthly stock quantity on hand per customer and stock group, with hierarchical grouping by year, month, customer, and stock group.
 9. [MonthlySalespersonCumulativeInvoice.sql](MonthlySalespersonCumulativeInvoice.sql): Calculates monthly and cumulative invoice totals per salesperson, grouped by year and month.
+10. [Top3AnnualSalesByEmployee.sql](Top3AnnualSalesByEmployee.sql): Identifies the top three sales employees by total sales for each year.
+
