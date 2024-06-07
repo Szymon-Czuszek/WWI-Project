@@ -18,4 +18,4 @@ This project aims to create a comprehensive data analysis system based on the Wi
 10. [Top3AnnualSalesByEmployee.sql](Top3AnnualSalesByEmployee.sql): Identifies the top three sales employees by total sales for each year.
 11. [TopSalesByEmployeeSAS.sas](TopSalesByEmployeeSAS.sas): Imports WWI data, calculates monthly total unit price and quantity per salesperson and stock item, and retrieves the top 15 sales records.
 12. [AddRecordIDToResultSAS.sas](AddRecordIDToResultSAS.sas): Adds a RecordID to the query results using DS2, increments the ID for each record, and prints the final dataset.
-
+13. [CountRecordsByFullNameSAS.sas](CountRecordsByFullNameSAS.sas): Counts the records for each FullName in the dataset, sorts by descending total count, and prints the results.
