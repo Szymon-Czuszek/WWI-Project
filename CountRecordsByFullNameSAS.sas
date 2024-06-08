@@ -1,23 +1,23 @@
-/* Using DS2 to create a RecordID, which is useful when dealing with data */
-%LET number = 0;
+PROC SORT DATA = result;
+    BY FullName;
+RUN;
 PROC DS2;
-DATA result /OVERWRITE = YES;
-    DCL INT RecordID;
-    METHOD init();
-    RecordID = %TSLIT(&number);
-    END;
-        /*GLOWNA*/
+    DATA test_result /OVERWRITE=YES;
+        DCL DOUBLE Total;
+        RETAIN Total;
+        KEEP FullName Total;
         METHOD run();
-        SET query_result;
-        RecordID + 1;
+            SET result;
+            BY FullName;
+            IF FIRST.FullName THEN Total = 0;
+            Total = Total + 1;
+            IF LAST.FullName THEN OUTPUT;
         END;
-    /*NA KONIEC*/
-    METHOD term();
-    PUT 'Koniec !!!';
-    END;
-ENDDATA;
+    ENDDATA;
 RUN;
 QUIT;
-PROC PRINT
-    DATA = work.result;
+PROC SORT DATA = test_result;
+    BY DESCENDING Total;
+RUN;
+PROC PRINT DATA = work.test_result;
 RUN;
