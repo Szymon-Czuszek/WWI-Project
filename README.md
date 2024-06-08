@@ -6,6 +6,8 @@ This project aims to create a comprehensive data analysis system based on the Wi
 
 ## Snippet List
 
+### SQL
+
 1. [CustomerTransactionSummaryByGeography.sql](CustomerTransactionSummaryByGeography.sql): The query aims to summarize customer transactions by geographical hierarchy, providing insights into the number of customers and total transaction amounts at the city, state/province, and country levels.
 2. [SupplierTransactionSummaryByYear.sql](SupplierTransactionSummaryByYear.sql): The output of this query will be a list of suppliers with their total transaction amounts for each year.
 3. [SalespersonMonthlyOrderSummary.sql](SalespersonMonthlyOrderSummary.sql): The output of this query will be a list of sales transactions, aggregated by salesperson, year, and month.
@@ -16,6 +18,9 @@ This project aims to create a comprehensive data analysis system based on the Wi
 8. [MonthlyStockGroupRollup.sql](MonthlyStockGroupRollup.sql): Calculates the average monthly stock quantity on hand per customer and stock group, with hierarchical grouping by year, month, customer, and stock group.
 9. [MonthlySalespersonCumulativeInvoice.sql](MonthlySalespersonCumulativeInvoice.sql): Calculates monthly and cumulative invoice totals per salesperson, grouped by year and month.
 10. [Top3AnnualSalesByEmployee.sql](Top3AnnualSalesByEmployee.sql): Identifies the top three sales employees by total sales for each year.
+
+### SAS
+
 11. [TopSalesByEmployeeSAS.sas](TopSalesByEmployeeSAS.sas): Imports WWI data, calculates monthly total unit price and quantity per salesperson and stock item, and retrieves the top 15 sales records.
 12. [AddRecordIDToResultSAS.sas](AddRecordIDToResultSAS.sas): Adds a RecordID to the query results using DS2, increments the ID for each record, and prints the final dataset.
 13. [CountRecordsByFullNameSAS.sas](CountRecordsByFullNameSAS.sas): Counts the records for each FullName in the dataset, sorts by descending total count, and prints the results.
