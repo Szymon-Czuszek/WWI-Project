@@ -35,3 +35,4 @@ This project aims to create a comprehensive data analysis system based on the Wi
 19. [CustomerAndEmployeeAnalysis.py](CustomerAndEmployeeAnalysis.py): Performs profit analysis per customer and aggregates sales and order quantities per employee, then merges and displays the results.
 20. [YearlyAnalysisAndMerge.py](YearlyAnalysisAndMerge.py): Aggregates yearly profit, total quantity, and sales, merges the results based on the year, and displays the merged DataFrame.
 21. [MonthlyTrendAnalysisPlot.py](MonthlyTrendAnalysisPlot.py): Generates and displays a line plot showing monthly profit, total quantity, and sales trends over time.
+22. [CustomerProfitDistributionPlot.py](CustomerProfitDistributionPlot.py): Generates and displays a histogram showing the distribution of total profit per customer, including a kernel density estimate (KDE).
