@@ -24,7 +24,7 @@ This project aims to create a comprehensive data analysis system based on the Wi
 11. [TopSalesByEmployeeSAS.sas](SAS/TopSalesByEmployeeSAS.sas): Imports WWI data, calculates monthly total unit price and quantity per salesperson and stock item, and retrieves the top 15 sales records.
 12. [AddRecordIDToResultSAS.sas](SAS/AddRecordIDToResultSAS.sas): Adds a RecordID to the query results using DS2, increments the ID for each record, and prints the final dataset.
 13. [CountRecordsByFullNameSAS.sas](SAS/CountRecordsByFullNameSAS.sas): Counts the records for each FullName in the dataset, sorts by descending total count, and prints the results.
-14. [CalculatePriceAndTaxSAS.sas](CalculatePriceAndTaxSAS.sas): Calculates the total price and tax for each record by multiplying unit price and quantity, and prints the results with relevant variables.
+14. [CalculatePriceAndTaxSAS.sas](SAS/CalculatePriceAndTaxSAS.sas): Calculates the total price and tax for each record by multiplying unit price and quantity, and prints the results with relevant variables.
 
 ### Python
 
