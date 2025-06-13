@@ -29,7 +29,7 @@ This project aims to create a comprehensive data analysis system based on the Wi
 ### Python
 
 15. 📌 [LoadSASFilesToSQLite.py](Python/LoadSASFilesToSQLite.py): Reads SAS files from the WWI directory, loads them into DataFrames, and saves them to a SQLite database.
-16. [ExecuteSQLQueriesSQLite.py](Python/ExecuteSQLQueriesSQLite.py): Defines a function to execute SQL queries on a SQLite database and return the results as pandas DataFrames, then executes and retrieves data for customer profits, employee order quantities, and invoice totals.
+16. 📌 [ExecuteSQLQueriesSQLite.py](Python/ExecuteSQLQueriesSQLite.py): Defines a function to execute SQL queries on a SQLite database and return the results as pandas DataFrames, then executes and retrieves data for customer profits, employee order quantities, and invoice totals.
 17. [DescribeQueryResults.py](Python/DescribeQueryResults.py): Displays summary statistics for each result set.
 18. [MonthlyAnalysisAndMerge.py](Python/MonthlyAnalysisAndMerge.py): Performs monthly profit, quantity, and sales analyses by aggregating and merging data based on the date, fills missing values, and displays the merged DataFrame with the date as the index.
 19. [CustomerAndEmployeeAnalysis.py](Python/CustomerAndEmployeeAnalysis.py): Performs profit analysis per customer and aggregates sales and order quantities per employee, then merges and displays the results.
