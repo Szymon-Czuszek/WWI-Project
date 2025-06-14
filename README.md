@@ -33,7 +33,7 @@ This project aims to create a comprehensive data analysis system based on the Wi
 17. 📌 [DescribeQueryResults.py](Python/DescribeQueryResults.py): Displays summary statistics for each result set.
 18. 📌 [MonthlyAnalysisAndMerge.py](Python/MonthlyAnalysisAndMerge.py): Performs monthly profit, quantity, and sales analyses by aggregating and merging data based on the date, fills missing values, and displays the merged DataFrame with the date as the index.
 19. 📌 [CustomerAndEmployeeAnalysis.py](Python/CustomerAndEmployeeAnalysis.py): Performs profit analysis per customer and aggregates sales and order quantities per employee, then merges and displays the results.
-20. [YearlyAnalysisAndMerge.py](Python/YearlyAnalysisAndMerge.py): Aggregates yearly profit, total quantity, and sales, merges the results based on the year, and displays the merged DataFrame.
+20. 📌 [YearlyAnalysisAndMerge.py](Python/YearlyAnalysisAndMerge.py): Aggregates yearly profit, total quantity, and sales, merges the results based on the year, and displays the merged DataFrame.
 21. [MonthlyTrendAnalysisPlot.py](Python/MonthlyTrendAnalysisPlot.py): Generates and displays a line plot showing monthly profit, total quantity, and sales trends over time.
 22. [CustomerProfitDistributionPlot.py](Python/CustomerProfitDistributionPlot.py): Generates and displays a histogram showing the distribution of total profit per customer, including a kernel density estimate (KDE).
 23. [MonthlyDistributionBoxplots.py](Python/MonthlyDistributionBoxplots.py): Creates subplots with boxplots to visualize the distribution of monthly profit, total quantity, and invoice total. Each subplot represents a different aspect of the data, showing how these metrics vary month by month.
